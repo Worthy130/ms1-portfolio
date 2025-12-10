@@ -1,0 +1,26 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: 'Tinos', serif;
+}
+
+/* Logo Styling */
+.navbar .logo {
+    height: 150px;
+    width: auto;
+}
+
+/* Header Styling */
+.header {
+    text-align: center;
+    margin: 20px 0;
+    background-color: cornflowerblue;
+}
+.header-image img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
