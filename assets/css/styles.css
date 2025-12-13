@@ -3,6 +3,7 @@
 
 body {
     font-family: 'Tinos', serif;
+    padding-top: 220px; /* Adjusted for fixed navbar height */
 }
 
 /* Logo Styling */
@@ -43,10 +44,12 @@ body {
     margin-top: 15px;
 }
 
-
-
 /* About Me Section */
-
+#about-me {
+    padding: 50px 20px;
+    background-color: #b3e2b6;
+    text-align: center;
+}
 
 
 
@@ -60,7 +63,11 @@ body {
 
 
 /* Portfolio Section */
-
+#projects {
+    padding: 50px 20px;
+    background-color: #d9f0d9;
+    text-align: center;
+}
 
 
 
@@ -71,7 +78,11 @@ body {
 
 
 /* Footer Styling */
-.btn-group {
-    height: 60px;
-    width: 200px;;
+
+
+#footer {
+    background-color: rgb(133, 171, 240);
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
 }
