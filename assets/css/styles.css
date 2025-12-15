@@ -11,6 +11,32 @@ body {
     height: 200px;
     width: auto;
 }
+
+/* Buttons */
+
+.custom-button-filled {
+    border: 2px solid var(--highlight-color);
+    background-color: var(--highlight-color);
+    color: white;
+}
+
+.custom-button-filled:hover {
+    border: 2px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.custom-button-outline {
+    border: 1px solid green;
+    padding: 7px 25px;
+    background-color: #b3e2b6;
+}
+
+.custom-button-outline:hover {
+    background-color: #75ba75;
+    color: black
+}
+
 /* Navigation Bar Styling */
 .navbar {
     background-color: #75ba75;
@@ -53,15 +79,6 @@ body {
 
 
 
-
-
-/* What I Can Do Section */
-
-
-
-
-
-
 /* Portfolio Section */
 #projects {
     padding: 50px 20px;
@@ -69,20 +86,46 @@ body {
     text-align: center;
 }
 
+/* Footer / contact */
+
+#contact {
+    background-color: cornflowerblue;
+    padding-bottom: 3rem;
+}
+
+#contact .social-icons i {
+    font-size: 4rem;
+    padding: 10px;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+}
 
 
+#contact .table-primary * {
+    background-color: transparent;
+}
 
-/* Contact Section */
+/* Media queries */
 
+/* Small screens and up */
+@media screen and (min-width: 576px) {
+    
+}
 
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+   
+}
 
+/* Large devices (small laptops, 992px and up) */
+@media screen and (min-width: 992px) {
+}
 
-/* Footer Styling */
+/* xl devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+}
 
-
-#footer {
-    background-color: rgb(133, 171, 240);
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 30px;
+/* xxl devices (larger desktops, 1400px and up) */
+@media screen and (min-width: 1400px) {
 }

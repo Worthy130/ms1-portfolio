@@ -33,9 +33,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    <a class="nav-link" href="#projects">Projects</a>
-                    <a class="nav-link" href="contact.html">Contact Me</a>
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="index.html#projects">Projects</a>
+                    <a class="nav-link active" aria-current="page" href="contact.html">Contact Me</a>
                 </div>
             </div>
         </div>
@@ -54,73 +54,46 @@
     </header>
 
     <main>
-        <!--About Me Section-->
-        <section id="about-me">
-            <div class="container mt-4 mb-4">
-                <div class="row">
-                    <div class="col-4">
-                        Hello, I’m James Worthington, a passionate Web Developer dedicated to building modern,
-                        responsive, and
-                        user-focused websites. My journey in web development began with a curiosity for how things work
-                        behind
-                        the screen, and it has grown into a career where creativity meets technology.
-                        I specialise in both front-end and back-end development, with strong skills in HTML, CSS,
-                        JavaScript,
-                        and frameworks like React and Node.js. I also have experience in API integration, database
-                        management,
-                        and ensuring websites are optimised for performance and accessibility. Every project I work on
-                        is guided
-                        by a commitment to clean, efficient code and intuitive design.
-                    </div>
-                    <div class="col-4">
-                        <p>I believe that great websites are more than just functional—they should provide an engaging
-                            experience. I
-                            focus on: <br>
-                            • Responsive Design: Ensuring seamless performance across all devices. <br>
-                            • User Experience: Creating interfaces that are simple, elegant, and easy to navigate. <br>
-                            • Performance Optimization: Building fast-loading sites that keep users engaged. <br>
-                            • Continuous Learning: Staying up to date with the latest technologies and trends to deliver
-                            cutting-edge solutions.
-                    </div>
-                    <div class="col-4">
-                        Collaboration and problem-solving are at the heart of my work. I enjoy working with clients and
-                        teams to
-                        transform ideas into reality, delivering solutions that meet both technical and business goals.
-                        My
-                        ultimate aim is to create websites that not only look great but also help businesses thrive
-                        online.
-                    </div>
-                    </row>
+                <!-- Contact Me inquiry form section -->
+        <section id="contact-me" class="container section">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                    <h2>Contact me</h2>
+                    <form action="success.html" method="GET">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input class="form-control" id="name" name="name" type="text" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input class="form-control" id="email" name="email" type="email" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="phone" class="form-label">Phone number</label>
+                                <input class="form-control" id="phone" name="phone" type="number" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="enquiry-type" class="form-label">Enquiry type</label>
+                                <select id="event-type" class="form-select" name="event-type" required>
+                                    <option value="" selected>Select</option>
+                                    <option value="existing customer">Existing Customer</option>
+                                    <option value="new-customer">New Customer</option>
+                                    <option value="General Enquiry">General Enquiry</option>
+                                </select>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn custom-button-outline mb-4">Submit</button>
+                    </form>
                 </div>
+            </div>
         </section>
 
-        <!--Projects Section-->
-        <section id="projects">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-4 mb-4">
-                        <img src="assets/images/istockphoto-612x612.jpg" alt="Placeholder">
-                    </div>
-                    <div class="col-4 mb-4">
-                        <img src="assets/images/istockphoto-612x612.jpg" alt="Placeholder">
-                    </div>
-                    <div class="col-4 mb-4">
-                        <img src="assets/images/istockphoto-612x612.jpg" alt="Placeholder">
-                    </div>
-                </div>    
-                <div class="row">
-                    <div class="col-4 mb-4">
-                        <img src="assets/images/istockphoto-612x612.jpg" alt="Placeholder">
-                    </div>
-                    <div class="col-4 mb-4">
-                        <img src="assets/images/istockphoto-612x612.jpg" alt="Placeholder">
-                    </div>
-                    <div class="col-4 mb-4">
-                        <img src="assets/images/istockphoto-612x612.jpg" alt="Placeholder">
-                    </div>
-                </div>
-            </div>    
-        </section>
 
     </main>
 
@@ -191,7 +164,6 @@
             </div>
         </div>
     </footer>
-
 
 
     <!--Bootstrap Javascript-->
